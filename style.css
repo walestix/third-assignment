@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Ubuntu;
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(/Ubuntu-Light.ttf);
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main1{
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+ .nav ul li{
+    list-style: none;
+    padding-left:20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+ .nav ul{
+    display: flex;
+    align-items: flex-start;
+    justify-content:center;
+    background-color: white;
+    padding: 5px;
+    font-size: 12px;
+}
+
+ .nav ul li.li-5{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+ .nav ul a{
+    text-decoration: none;
+    color: black;
+}
+
+ul img {
+    height: 40px;
+    width: 200px;
+    margin-right: 700px;
+}
+
+.form {
+    box-sizing: border-box;
+    width: 420px;
+    height: 470px;
+    box-shadow: 4px 4px 4px 4px rgb(231, 231, 231);
+    margin: 15px;
+    border-radius: 10px;
+
+}
+
+.form p.form-head{
+    font-size: 20px;
+    text-shadow: 2px 2px grey;
+    padding: 15px;
+}
+
+form{
+    padding: 20px;
+}
+
+label.sym{
+    font-size:20px;
+    color: rgb(18, 80, 80);
+}
+
+label.basic-info{
+    font-size: 18px;
+}
+label{
+    font-size: 12px;
+}
+input.firstname{
+    width: 150px;
+    height: 30px;
+    outline: none;
+    background-color: rgb(223, 223, 223);
+    border: none;
+    border-radius: 5px;
+}
+
+input.lastname{
+    width: 150px;
+    height: 30px;
+    outline: none;
+    background-color: rgb(223, 223, 223);
+    border: none;
+    border-radius: 5px;
+    margin-right: 40px;
+}
+
+input.email{
+    width: 250px;
+    height: 30px;
+    outline: none;
+    background-color: rgb(223, 223, 223);
+    border: none;
+    border-radius: 5px;
+}
+
+
+form .names{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+
+form .card-no{
+    width: 370px;
+    height: 30px;
+    outline: none;
+    background-color: rgb(223, 223, 223);
+    border: none;
+    border-radius: 5px;
+}
+
+input.submit{
+    width: 370px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: teal;
+    color: white;
+}
+
+p.feedback{
+    font-size: 12px;
+    text-align: center;
+}
+
+p.feedback span{
+    border: 1px solid teal;
+    border-radius: 20px;
+    
+    padding-left: 3px;
+    padding-right: 3px;
+    color: teal;
+}
+
+p.feedback u{
+    padding-right: 30px;
+}
+
+.feedback img{
+    width: 100px;
+    height: 20px;
+    margin-left:150px;
+    margin-bottom: 20px;
+    
+}
+
+main2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:first baseline;
+    width: 150px;
+    height: 410px;
+    padding: 30px;
+    box-shadow: 4px 4px 4px 4px rgb(231, 231, 231);
+    background-color: rgb(73, 142, 199);
+    color: white;
+    margin-top: 20px;
+    margin-left: -30px;
+    margin-bottom: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: 1;
+}
+
+.freelancer{
+    font-size: 15px;
+}
+
+.price sup{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.price{
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.price sub{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+main2 ul{
+    list-style:url(/check_circle_FILL0_wght400_GRAD0_opsz24.png) white;
+    font-size: 15px;
+}
+
+label.p3 a{
+    color: white;
+
+}
+
+label.p4{
+    font-style: italic;
+}
+
+img.profile-pic{
+    width: 40px;
+    height:40px ;
+    border-radius: 20px;
+}
+
+label.imgname{
+    font-size: 15px;
+    margin-top: -30px;
+    margin-left: 50px;
+}
+
+p.footer{
+    text-align: center;
+    font-size: 10px;
+}
+
+p.footer a{
+    text-decoration: none;
+   color: darkblue;
+}
